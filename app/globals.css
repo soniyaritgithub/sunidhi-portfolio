@@ -20,7 +20,302 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+body {
+  cursor: default;
+}
+
+.glow {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 9999px;
+  background: rgba(34, 211, 238, 0.15);
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+body {
+  background-color: #020617;
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* New Premium Grid Background */
+.grid-bg {
+  background-image:
+    linear-gradient(
+      rgba(34,211,238,0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(34,211,238,0.08) 1px,
+      transparent 1px
+    );
+  background-size: 50px 50px;
+}
+
+.glow-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.glow-bg::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 10%;
+  left: -150px;
+  background: rgba(34,211,238,.15);
+  filter: blur(140px);
+}
+
+.glow-bg::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: -150px;
+  top: 30%;
+  background: rgba(168,85,247,.12);
+  filter: blur(140px);
+}
+
+.section-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(34,211,238,.4),
+    transparent
+  );
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.floating {
+  animation: floating 4s ease-in-out infinite;
+}
+
+.glass {
+  transition: all 0.4s ease;
+}
+
+.glass:hover {
+  backdrop-filter: blur(25px);
+}
+
+html {
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.terminal-line {
+  opacity: 0;
+  animation: terminalFade 6s infinite;
+}
+
+.delay-1 {
+  animation-delay: 1.2s;
+}
+
+.delay-2 {
+  animation-delay: 2.4s;
+}
+
+.delay-3 {
+  animation-delay: 3.6s;
+}
+
+@keyframes terminalFade {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  max-width: 100%;
+}
+
+/* Morphing Animation */
+
+.morphing-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.25;
+  animation: morphing 12s ease-in-out infinite;
+}
+
+.morph-1 {
+  width: 250px;
+  height: 250px;
+  background: #06b6d4;
+  top: -50px;
+  left: -50px;
+}
+
+.morph-2 {
+  width: 300px;
+  height: 300px;
+  background: #8b5cf6;
+  top: 30%;
+  right: -100px;
+  animation-delay: 2s;
+}
+
+.morph-3 {
+  width: 220px;
+  height: 220px;
+  background: #ec4899;
+  bottom: -50px;
+  left: 35%;
+  animation-delay: 4s;
+}
+
+@keyframes morphing {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(40px, -40px) scale(1.2);
+  }
+
+  50% {
+    transform: translate(-40px, 30px) scale(0.9);
+  }
+
+  75% {
+    transform: translate(30px, 50px) scale(1.1);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+.ai-float {
+  animation: aiFloat 4s ease-in-out infinite;
+}
+
+@keyframes aiFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 4s linear infinite;
+}
+
+@keyframes gradientBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-border {
+  background-size: 300% 300%;
+  animation: gradientBorder 12s linear infinite;
+}
+@keyframes shimmer {
+  0% {
+    transform: translateX(-180%);
+  }
+
+  100% {
+    transform: translateX(180%);
+  }
 }
