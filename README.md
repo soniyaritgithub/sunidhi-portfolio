@@ -1,75 +1,105 @@
-# 🚀 Sunidhi Shinde | Developer Portfolio
+<div align="center">
 
-A modern, fully responsive developer portfolio built with Next.js 15, TypeScript, and Tailwind CSS. The portfolio showcases my projects, technical skills, certifications, AI journey, blogs, and contact information with smooth animations and a premium UI.
+# 👋 Hi, I'm Sunidhi Shinde
+
+### Full Stack Developer | AI Enthusiast | Cybersecurity Learner
+
+Modern AI-powered Developer Portfolio built with Next.js & TypeScript.
+
+<br>
+
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Portfolio
 
-🔗 https://sunidhi-portfolio-alpha.vercel.app/
+### 🔗 https://sunidhi-portfolio-alpha.vercel.app/
 
 ---
 
-## 📸 Preview
+# 📸 Portfolio Preview
+
+> Create a folder named **screenshots** and add your images.
 
 ### Home
+
 ![Home](screenshots/home.png)
 
+---
+
+### About
+
+![About](screenshots/about.png)
+
+---
+
 ### Projects
+
 ![Projects](screenshots/projects.png)
 
+---
+
 ### Skills
+
 ![Skills](screenshots/skills.png)
 
+---
+
 ### Certifications
+
 ![Certifications](screenshots/certifications.png)
 
 ---
 
 # ✨ Features
 
-- Modern Developer Portfolio
-- Fully Responsive Design
-- Premium Glassmorphism UI
-- Animated Hero Section
-- Interactive Particle Background
-- Cursor Glow Effects
-- AI Journey Timeline
-- AI Toolkit Section
-- Technical Skills Showcase
-- Project Gallery
-- Certifications Section
-- Blog Section
-- Recruiter CTA
-- Resume Download
-- Contact Section
-- Smooth Scroll Navigation
-- SEO Friendly
-- Fast Performance
-- Clean Folder Structure
+- 🚀 Premium Developer Portfolio
+- 🎨 Modern Glassmorphism UI
+- 🌌 Animated Background Effects
+- ✨ Cursor Glow Animation
+- 🤖 AI Journey Timeline
+- 🧠 AI Toolkit Section
+- 💼 Project Showcase
+- 🏆 Certifications Section
+- 📝 Technical Blog Section
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance
+- 🔍 SEO Friendly
+- 📄 Resume Download
+- 📬 Contact Form
+- 🌙 Dark Theme
+- 🎯 Recruiter Friendly Layout
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - Next.js 15
 - React
 - TypeScript
 - Tailwind CSS
 
-### UI & Animation
+## UI
 
 - Framer Motion
 - Lucide React
-- Custom CSS Animations
+- CSS Animations
 
-### Deployment
+## Deployment
 
 - Vercel
 
-### Tools
+## Development Tools
 
 - VS Code
 - Git
@@ -77,27 +107,43 @@ A modern, fully responsive developer portfolio built with Next.js 15, TypeScript
 
 ---
 
-# ⚙ Installation
+# 📂 Folder Structure
 
-Clone the repository
+```bash
+portfolio
+│
+├── app
+├── components
+├── data
+├── public
+├── screenshots
+├── package.json
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+Clone Repository
 
 ```bash
 git clone https://github.com/soniyaritgithub/sunidhi-portfolio.git
 ```
 
-Go to project folder
+Go to Project
 
 ```bash
 cd sunidhi-portfolio
 ```
 
-Install dependencies
+Install Packages
 
 ```bash
 npm install
 ```
 
-Run locally
+Run
 
 ```bash
 npm run dev
@@ -111,7 +157,7 @@ http://localhost:3000
 
 ---
 
-# 📌 Sections Included
+# 📌 Portfolio Sections
 
 - Hero
 - About
@@ -125,63 +171,82 @@ http://localhost:3000
 - Blog
 - Recruiter CTA
 - Contact
-- Footer
 
 ---
 
 # 💼 Featured Projects
 
-- SkillMatch AI Resume Analyzer
-- SmartBank – Full Stack Banking System
-- RBAC Authentication System
-- Student Management System
+### 🤖 SkillMatch AI Resume Analyzer
+
+AI-powered Resume Analyzer using Gemini AI with ATS Score, Resume Match, Skill Gap Detection and Recruiter Insights.
+
+---
+
+### 🏦 SmartBank
+
+Full Stack Online Banking System with Authentication, Dashboard and Secure Banking Features.
+
+---
+
+### 🔐 RBAC Authentication System
+
+Role-Based Authentication System with JWT Security.
+
+---
+
+### 🎓 Student Management System
+
+CRUD-based Student Management System using modern web technologies.
 
 ---
 
 # 📱 Responsive Design
 
-Optimized for:
+✔ Desktop
 
-- Desktop
-- Laptop
-- Tablet
-- Mobile
+✔ Laptop
+
+✔ Tablet
+
+✔ Mobile
 
 ---
 
-# 🚀 Performance
+# ⚡ Performance
 
 - Fast Loading
-- Responsive UI
 - Optimized Components
-- SEO Friendly
-- Clean Code Structure
+- Responsive Layout
+- SEO Optimized
+- Clean Architecture
 
 ---
 
-# 👩‍💻 About Me
+# 👩 About Me
 
-Hi, I'm Sunidhi Shinde, a Full Stack Developer passionate about building modern web applications and AI-powered solutions. I enjoy creating responsive user interfaces, solving real-world problems, and continuously learning new technologies.
+I'm **Sunidhi Shinde**, a Full Stack Developer passionate about building modern web applications and AI-powered solutions. I enjoy creating responsive user interfaces, exploring AI technologies, and continuously improving my development skills by working on real-world projects.
 
 ---
 
-# 📫 Contact
+# 📬 Connect With Me
 
-Name: Sunidhi Shinde
+### Portfolio
 
-Email: sunidhishinde28@gmail.com
+https://sunidhi-portfolio-alpha.vercel.app/
 
-LinkedIn
-https://www.linkedin.com/in/sunidhishinde/
+### LinkedIn
 
-GitHub
+https://linkedin.com/in/sunidhishinde
+
+### GitHub
+
 https://github.com/soniyaritgithub
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you like this project, don't forget to give it a ⭐ on GitHub.
 
 ---
 
