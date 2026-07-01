@@ -19,43 +19,47 @@ Modern AI-powered Developer Portfolio built with Next.js & TypeScript.
 
 ---
 
-# 🌐 Live Portfolio
-
-### 🔗 https://sunidhi-portfolio-alpha.vercel.app/
-
----
-
 # 📸 Portfolio Preview
 
-> Create a folder named **screenshots** and add your images.
-
-### Home
+### 🏠 Home
 
 ![Home](screenshots/home.png)
 
 ---
 
-### About
+### 👤 About
 
 ![About](screenshots/about.png)
 
 ---
 
-### Projects
-
-![Projects](screenshots/projects.png)
-
----
-
-### Skills
+### 💻 Skills
 
 ![Skills](screenshots/skills.png)
 
 ---
 
-### Certifications
+### 🚀 Projects
+
+![Projects](screenshots/projects.png)
+
+---
+
+### 🏆 Certifications
 
 ![Certifications](screenshots/certifications.png)
+
+---
+
+### 🤖 AI Journey
+
+![AI Journey](screenshots/ai-journey.png)
+
+---
+
+### 📩 Contact
+
+![Contact](screenshots/contact.png)
 
 ---
 
