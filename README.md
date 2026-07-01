@@ -21,45 +21,21 @@ Modern AI-powered Developer Portfolio built with Next.js & TypeScript.
 
 # 📸 Portfolio Preview
 
-### 🏠 Home
+| Home | About |
+|------|------|
+| ![](screenshots/home.png) | ![](screenshots/about.png) |
 
-![Home](screenshots/home.png)
+| Skills | Projects |
+|------|------|
+| ![](screenshots/skills.png) | ![](screenshots/projects.png) |
 
----
+| Certifications | AI Journey |
+|------|------|
+| ![](screenshots/certifications.png) | ![](screenshots/ai-journey.png) |
 
-### 👤 About
-
-![About](screenshots/about.png)
-
----
-
-### 💻 Skills
-
-![Skills](screenshots/skills.png)
-
----
-
-### 🚀 Projects
-
-![Projects](screenshots/projects.png)
-
----
-
-### 🏆 Certifications
-
-![Certifications](screenshots/certifications.png)
-
----
-
-### 🤖 AI Journey
-
-![AI Journey](screenshots/ai-journey.png)
-
----
-
-### 📩 Contact
-
-![Contact](screenshots/contact.png)
+| Contact |
+|------|
+| ![](screenshots/contact.png) |
 
 ---
 
