@@ -2,6 +2,15 @@
 
 import Script from "next/script";
 
+declare const WebMetrix: {
+  init: (config: {
+    tenant: string;
+    tenantUid: string;
+    debug?: boolean;
+  }) => boolean;
+  sessionId: string;
+};
+
 export default function WebMetrixInit() {
   return (
     <Script
