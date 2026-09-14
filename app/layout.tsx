@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import HeadTagsScriptLoader from "@/components/HeadTagsScriptLoader";
-
-const EXTRA_HEAD_TAGS = process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,17 +28,16 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
      <body className="bg-black text-white">
-      {EXTRA_HEAD_TAGS && (
-        <>
+      {/* <WebMetrixInit /> */}
+      {children}
+      
+      {process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS && (
           <div
             id="analytics-head-tags"
-            style={{ display: "none" }}
-            dangerouslySetInnerHTML={{ __html: EXTRA_HEAD_TAGS }}
+            style={{ display: 'none' }}
+            dangerouslySetInnerHTML={{ __html: process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS }}
           />
-          <HeadTagsScriptLoader />
-        </>
-      )}
-      {children}
+        )}
       </body>
     </html>
   );
