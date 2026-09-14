@@ -27,7 +27,18 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-     <body className="bg-black text-white">{children}</body>
+     <body className="bg-black text-white">
+      {/* <WebMetrixInit /> */}
+      {children}
+      
+      {process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS && (
+          <div
+            id="analytics-head-tags"
+            style={{ display: 'none' }}
+            dangerouslySetInnerHTML={{ __html: process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS }}
+          />
+        )}
+      </body>
     </html>
   );
 }
