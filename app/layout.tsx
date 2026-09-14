@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import HeadTagsScriptLoader from "@/components/HeadTagsScriptLoader";
 
 const EXTRA_HEAD_TAGS = process.env.NEXT_PUBLIC_EXTRA_HEAD_TAGS;
 
@@ -31,11 +32,14 @@ export default function RootLayout({
     >
      <body className="bg-black text-white">
       {EXTRA_HEAD_TAGS && (
-        <div
-          id="analytics-head-tags"
-          style={{ display: "none" }}
-          dangerouslySetInnerHTML={{ __html: EXTRA_HEAD_TAGS }}
-        />
+        <>
+          <div
+            id="analytics-head-tags"
+            style={{ display: "none" }}
+            dangerouslySetInnerHTML={{ __html: EXTRA_HEAD_TAGS }}
+          />
+          <HeadTagsScriptLoader />
+        </>
       )}
       {children}
       </body>
